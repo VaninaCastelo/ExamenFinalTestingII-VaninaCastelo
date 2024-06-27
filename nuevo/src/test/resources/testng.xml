@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Parabank Test Suite">
+  <test name="Frontend Tests">
+    <classes>
+      <class name="parabank.frontend.testRegister"/>
+      <class name="parabank.frontend.testOpenAccount"/>
+      <class name="parabank.frontend.testAccountOverview"/>
+      <class name="parabank.frontend.testFundTransfer"/>
+      <class name="parabank.frontend.testAccountActivity"/>
+    </classes>
+  </test>
+  <test name="Backend Tests">
+    <classes>
+      <class name="parabank.backend.ApiTest"/>
+    </classes>
+  </test>
+</suite>
